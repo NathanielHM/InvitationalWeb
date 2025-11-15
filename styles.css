@@ -1151,6 +1151,7 @@ body {
     font-weight: 400;
     opacity: 0;
     animation: fadeInUp 1s ease-out 1.2s forwards;
+    margin-top: 50px;
 }
 
 /* Floating Balloon Section */
@@ -2261,7 +2262,8 @@ body {
     
     .header-balloon {
         width: 150px;
-        height: 210px;
+        height: 250px;
+        margin-bottom: 40px;
     }
     
     .header-balloon-body {
@@ -2269,14 +2271,127 @@ body {
         height: 165px;
     }
     
+    .header-balloon-basket {
+        top: 165px;
+        width: 55px;
+        height: 45px;
+    }
+    
+    .header-balloon-ropes {
+        top: 165px;
+        width: 55px;
+        height: 70px;
+        z-index: 1;
+    }
+    
+    .rope {
+        height: 70px;
+        width: 2.5px;
+        background: var(--light-brown-dark);
+    }
+    
+    .header-bear {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header-bear-head {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .header-bear-ear {
+        width: 14px;
+        height: 14px;
+    }
+    
+    .header-bear-eye {
+        width: 5px;
+        height: 5px;
+    }
+    
+    .header-bear-snout {
+        width: 18px;
+        height: 14px;
+    }
+    
+    .header-bear-nose {
+        width: 6px;
+        height: 5px;
+    }
+    
+    .header-bear-mouth {
+        width: 8px;
+        height: 4px;
+    }
+    
+    .header-date {
+        margin-top: 30px;
+        font-size: 18px;
+    }
+    
     .floating-balloon {
         width: 250px;
-        height: 350px;
+        height: 400px;
     }
     
     .floating-balloon-body {
         width: 230px;
         height: 280px;
+    }
+    
+    .floating-balloon-basket {
+        top: 280px;
+        width: 80px;
+        height: 60px;
+    }
+    
+    .floating-balloon-ropes {
+        top: 280px;
+        width: 80px;
+        height: 100px;
+        z-index: 1;
+    }
+    
+    .floating-rope {
+        height: 100px;
+        width: 2.5px;
+        background: var(--light-brown-dark);
+    }
+    
+    .floating-bear {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .floating-bear-head {
+        width: 55px;
+        height: 55px;
+    }
+    
+    .floating-bear-ear {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .floating-bear-eye {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .floating-bear-snout {
+        width: 24px;
+        height: 18px;
+    }
+    
+    .floating-bear-nose {
+        width: 8px;
+        height: 6px;
+    }
+    
+    .floating-bear-mouth {
+        width: 12px;
+        height: 6px;
     }
     
     .verse-text {
